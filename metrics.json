@@ -1,0 +1,24 @@
+{
+  "metrics": {
+    "accuracy": 81.25,
+    "precision": 85.71,
+    "recall": 60.0,
+    "f1": 70.59
+  },
+  "feature_importance": {
+    "rainfall": 0.3023,
+    "river_level": 0.2463,
+    "soil_moisture": 0.1675,
+    "previous_rainfall": 0.1413,
+    "humidity": 0.0992,
+    "temperature": 0.0435
+  },
+  "features": [
+    "rainfall",
+    "temperature",
+    "humidity",
+    "river_level",
+    "soil_moisture",
+    "previous_rainfall"
+  ]
+}
